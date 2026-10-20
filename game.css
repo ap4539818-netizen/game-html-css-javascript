@@ -1,1 +1,65 @@
+#nav-bar{
+    height: 100px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+     animation-name: coloranimates;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;    
+}
+ @keyframes coloranimates {
+    from {background-color: red;}
+    to {background-color: blue;} 
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+#choice.hover{ 
+    opacity: 0.5;
+    cursor: pointer;
+}
+#rock{
+    height: 130px;
+    width: 130px;
+    background-image:url(1721422742405.jpg) ;
+    background-size: cover;
+}
+#scissors{
+    height: 130px;
+    width: 130px;
+    background-image: url(67ebfd32e898b4ec3ae4e59ae33832c8.jpg);
+    background-size: cover;
 
+}
+#paper{
+    height: 130px;
+    width: 130px;
+    background-image:url(paper.png);
+    background-size: cover;
+}
+#scores{
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+.msg{
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+#msg1{
+    text-align: center;
+    padding-top: 1rem;
+}
